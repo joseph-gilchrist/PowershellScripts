@@ -1,0 +1,2 @@
+sl HKLM:\Software; if(test-path Classes\Installer\Products\C3600C44748B9A74BBE4D9B11AA08EA3){remove-item Classes\Installer\Products\C3600C44748B9A74BBE4D9B11AA08EA3}ELSE{"Classes\Installer\Products\C3600C44748B9A74BBE4D9B11AA08EA3 does not exist"}
+sl HKLM:\Software; if(test-path Classes\Installer\Products\773CB0EAC0552934E86A01CF1DD389C6){remove-item Classes\Installer\Products\773CB0EAC0552934E86A01CF1DD389C6}ELSE{"Classes\Installer\Products\773CB0EAC0552934E86A01CF1DD389C6 does not exist"}
