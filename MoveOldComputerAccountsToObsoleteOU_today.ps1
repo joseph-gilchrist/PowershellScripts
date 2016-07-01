@@ -1,0 +1,1 @@
+﻿$d = [DateTime]::Today.AddDays(-90); Get-ADComputer -Filter  ‘PasswordLastSet -le $d’ -SearchBase “OU=CFPB Workstations,DC=cfpb,DC=local”| Move-ADObject -TargetPath “OU=Obsolete Computer Accounts,DC=cfpb,DC=local"
